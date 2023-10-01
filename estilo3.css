@@ -1,0 +1,27 @@
+#home{
+   list-align: relative;
+}
+.headings{
+   font-size:  2rem;
+}
+#pic img{
+    width: 300 px;
+    height: ;175px;
+}
+#intro h2{
+    font-size: 2rem;
+}
+.gallery img{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}

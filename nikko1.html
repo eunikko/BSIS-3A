@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="estilo1.css">
+        <link rel="stylesheet" media="screen and (max-width:800px)" href="estilo2.css">
+         <link rel="stylesheet" media="screen and (max-width:530px)" href="estilo3.css">
+</head>
+<body>
+    <nav class="navbar">
+       <ul>
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+        </nav>
+        <section id="home">
+            <div class="main">
+                <h1 class="headings">I AM <br> NIKKO ESTILO <br> --STUDENT--</h1>
+                <button class="btn" onclick="location.href='cv.pdf'">Download CV</button>
+            </div>
+        </section>
+        <section id="experience">
+                <h1 class="headings">ABOUT</h1>
+                <div id="pic">
+                <img src="img.jpg" height="120px" width="120px" style="border-radius:50%;" alt="">
+                </div>
+                <div id="intro">
+                    <h2>NIKKO ESTILO</h2>
+                    <p>I am still a beginner to this industry but I am ready to utilize my skills and motivated to learn and seek more about different things. I enjoy being around with everyone, the challenges that comes through for that's where the experiences come from.</p>
+                    </div>
+        </section>
+        <section id="skills">
+            <h1 class="headings">SKILLS</h1>
+            <div class="gallery">
+                <img src="t.jpg" alt="Teamwork">
+                <img src="tn.jpg" alt="Analysis">
+                <img src="tna.png" alt="Creative">
+            </div>
+        </section>
+            <section id="contact">
+                <h1 class="headings">CONTACT</h1>
+            <form action="" class="form">
+                <input type="text" name="email" class="input" placeholder="Type Your Name">
+                <input type="email" name="email" class="input" placeholder="Type Your Email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Type Your Message"></textarea>
+                <input type="submit" value="SEND" id="send">
+            </form>
+            </section>
+        
+</body>
+</html>
