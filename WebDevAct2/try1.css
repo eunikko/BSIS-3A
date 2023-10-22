@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+  font-family: sans-serif;
+}
+.container {
+  width: 1280px;
+  margin: 70px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container .box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: skyblue;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.container .box .imgBox {
+  position: relative;
+  overflow: hidden;
+}
+.container .box .imgBox img {
+  max-width: 100%;
+  transition: transform 2s;
+}
+.container .box:hover .imgBox img {
+  transform: scale(1.2);
+}
+h2 {
+  text-align: center;
+  font-family: "Dancing Script", sans-serif;
+  color: white;
+  font-size: 1.2vw;
+  margin: 60% 0 0 18%;
+  width: 70%;
+  letter-spacing: 5px;
+  line-height: 1.5em;
+}
