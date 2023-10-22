@@ -74,11 +74,11 @@ section .card .box .contentBx {
 section .card .box .contentBx div {
   transform-style: preserve-3d;
   padding: 20px;
-  background: linear-gradient(45deg, #fe0061, #ffeb3b);
+  background: linear-gradient(45deg, forestgreen, #ffeb3b);
   transform: translateZ(100px);
 }
 section .card .box .contentBx div h2 {
-  color: whitesmoke;
+  color: blueviolet;
   font-size: 20px;
   letter-spacing: 1px;
 }
