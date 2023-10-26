@@ -184,6 +184,7 @@ section {
 .about .row .content p {
   font-size: 1.6rem;
   color: #444;
+  text-align: justify;
   padding: 1rem 0;
   line-height: 1.8;
 }
